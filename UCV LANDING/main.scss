@@ -3,13 +3,20 @@ body {
     background-color: #233559;
 }
 
+
+
+#Enviar {
+    padding: 4px 0;
+}
+
+
+
 main {
 
     background-color: #ff000000;
 
     .wh-50 {
-        height: 100vh;
- 
+        
         .absolute-p {
             position: absolute;
             left: 20%;
@@ -41,7 +48,7 @@ main {
 
         .down-image {
             position: absolute;
-            right: 7em;
+            right: 3em;
             bottom: 5em;
         }
 
@@ -72,7 +79,7 @@ main {
         #case-form {
             .new-label {
                 line-height: 1.2;
-                font-size: 0.9rem;
+                font-size: 0.8rem;
             }
 
             .bg-redUCV {
@@ -87,6 +94,7 @@ main {
         }
     }
 }
+
 
 
 input::-webkit-outer-spin-button,
@@ -123,7 +131,27 @@ input::-webkit-inner-spin-button {
         border-radius: 20px;
     }
 
+
+   .h-60 {
+       height: 60px;
+   }
+
+
 }
+
+
+@media screen and (min-height: 640px)
+{
+ .wh-50 {
+        height: 100vh;
+    }
+}
+
+.pobtop {
+    top: 0;
+    background-color: #ffffff;
+}
+
 
 
 @media screen and (min-width: 768px) and (max-width: 1199px)
@@ -147,6 +175,14 @@ input::-webkit-inner-spin-button {
         border-radius: 20px;
     }
 
+  
+       .pobtop {
+
+        img {
+             height: 60px;
+            }
+         }
+
 }
 
 
@@ -169,6 +205,21 @@ input::-webkit-inner-spin-button {
         display: flex;
         align-items: center;
     }
+
+
+
+    .pobtop {
+
+        img {
+             height: 40px;
+            }
+    }
+
 }
+
+
+
+
+
 
 

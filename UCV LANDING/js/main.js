@@ -1,4 +1,4 @@
-var cambio = document.getElementById("size-c")
+//var cambio = document.getElementById("size-c")
 var enviar = document.getElementById("Enviar")
 var entradas = document.querySelectorAll("input")
 var selectores = document.querySelectorAll("select")
@@ -9,22 +9,22 @@ window.addEventListener("resize", () => {
     console.log(screen.width)
     if( screen.width < 577)
     {
-        cambio.classList.remove("wh-50")
-        cambio.classList.add("wh-120")
+   /*     cambio.classList.remove("wh-50")
+        cambio.classList.add("wh-120")  */
         enviar.classList.remove("w-50")
         enviar.classList.add("w-100")
     }
     else{
-        cambio.classList.remove("wh-120")
-        cambio.classList.add("wh-50")
+     /*   cambio.classList.remove("wh-120")
+        cambio.classList.add("wh-50")   */
         enviar.classList.remove("w-100")
         enviar.classList.add("w-50")
     }
-
+/*
     if (screen.height < 570) {
         cambio.classList.remove("wh-120")
         cambio.classList.add("wh-130")
-    }
+    }*/
 })
 
 
